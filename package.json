@@ -1,0 +1,21 @@
+{
+  "name": "avail-rollups-dashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd client && npm start",
+    "install-client": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "react-router-dom": "^6.26.2",
+    "sqlite3": "^5.1.7"
+  }
+}
